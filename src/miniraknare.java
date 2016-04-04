@@ -1,7 +1,12 @@
+import javafx.stage.Stage;
+
 /**
  * Created by suddan on 2016-04-04.
  */
+
+
 public class miniraknare {
+
 
     private double add(double x, double y) {
         return x+y;
@@ -28,18 +33,8 @@ public class miniraknare {
     }
 
 
-    public static void main(String[] args) {
-        miniraknare rakna = new miniraknare();
-
-        double x = 3;
-        double y = 4;
-
-        System.out.println(rakna.add(x,y));
-        System.out.println(rakna.sub(x,y));
-        System.out.println(rakna.mult(x,y));
-        System.out.println(rakna.divide(x,y));
-        System.out.println(rakna.sqrt(x));
 
 
-    }
+
+
 }
