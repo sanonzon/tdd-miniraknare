@@ -37,13 +37,8 @@ public class GUI extends Application {
         tal1.setMinSize(40,20);
         Label tal2 = new Label("Tal 2");
         tal2.setMinSize(40,20);
-        Label expected = new Label("Expected");
-        expected.setPrefSize(70,20);
-        Label result = new Label("Got");
-        result.setPrefSize(40,20);
 
-
-        top.getChildren().addAll(tal1,tal2,expected,result);
+        top.getChildren().addAll(tal1,tal2);
         verticalStack.getChildren().add(top);
 
         HBox topBox = new HBox(10);
@@ -53,13 +48,25 @@ public class GUI extends Application {
         TextField y = new TextField();
         y.setPrefSize(40,20);
 
-        Label btn_expected = new Label("");
-        btn_expected.setPrefSize(100,20);
-        Label btn_got = new Label("");
-        btn_got.setMinSize(40,20);
-        btn_got.setMaxSize(150,20);
-        topBox.getChildren().addAll(x,y,btn_expected,btn_got);
+        topBox.getChildren().addAll(x,y);
+        verticalStack.getChildren().add(topBox);
 
+        HBox expectedBox = new HBox(5);
+        Label expected = new Label("Expected");
+        expected.setPrefSize(70,20);
+        Label btn_expected = new Label("");
+        //btn_expected.setPrefSize(100,20);
+        expectedBox.getChildren().addAll(expected,btn_expected);
+        verticalStack.getChildren().add(expectedBox);
+
+        HBox gotBox = new HBox(5);
+        Label result = new Label("Got");
+        result.setPrefSize(70,20);
+        Label btn_got = new Label("");
+        //btn_got.setMinSize(40,20);
+
+        gotBox.getChildren().addAll(result,btn_got);
+        verticalStack.getChildren().add(gotBox);
 
         HBox operators = new HBox(5);
         Button btnPlus = new Button("+");
@@ -80,13 +87,7 @@ public class GUI extends Application {
         Button btnDiv = new Button("/");
         btnDiv.setPrefSize(40,40);
 
-
-
         operators.getChildren().addAll(btnPlus,btnSub,btnDiv,btnMult);
-
-
-
-        verticalStack.getChildren().add(topBox);
         verticalStack.getChildren().add(operators);
 
 
