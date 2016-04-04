@@ -57,6 +57,7 @@ public class GUI extends Application {
         btn_expected.setPrefSize(100,20);
         Label btn_got = new Label("");
         btn_got.setMinSize(40,20);
+        btn_got.setMaxSize(150,20);
         topBox.getChildren().addAll(x,y,btn_expected,btn_got);
 
 
@@ -68,7 +69,7 @@ public class GUI extends Application {
                 btn_got.setText(Double.toString(Miniraknare.add(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
             }
             catch (NumberFormatException nfe) {
-                btn_got.setText(nfe.toString());
+                btn_got.setText("Inte bara siffror");
             }
             });
 
@@ -91,10 +92,21 @@ public class GUI extends Application {
 
 
 
+        HBox botButtons = new HBox(5);
         Button quit = new Button("Quit");
         quit.setOnAction(e -> System.exit(0));
 
-        verticalStack.getChildren().add(quit);
+
+
+        Button reset = new Button("Reset");
+        reset.setOnAction(e -> {
+            x.setText("");
+            y.setText("");
+            btn_expected.setText("");
+            btn_got.setText("");
+        });
+        botButtons.getChildren().addAll(quit,reset);
+        verticalStack.getChildren().add(botButtons);
 
 
         stuff.getChildren().addAll(verticalStack);
