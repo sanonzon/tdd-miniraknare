@@ -5,7 +5,10 @@
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
@@ -19,29 +22,87 @@ public class GUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        miniraknare Miniraknare = new miniraknare();
+
         Stage mainstage = new Stage();
         Group root = new Group();
         mainstage.setTitle("Mazin java tjosan");
         HBox stuff = new HBox();
-        Scene scene = new Scene(stuff, 500, 500);
+        Scene scene = new Scene(stuff, 400, 500);
+
+        VBox verticalStack = new VBox(10);
+
+        HBox top = new HBox(20);
+        Label tal1 = new Label("Tal 1");
+        tal1.setMinSize(40,20);
+        Label tal2 = new Label("Tal 2");
+        tal2.setMinSize(40,20);
+        Label expected = new Label("Expected");
+        expected.setPrefSize(70,20);
+        Label result = new Label("Got");
+        result.setPrefSize(40,20);
+
+
+        top.getChildren().addAll(tal1,tal2,expected,result);
+        verticalStack.getChildren().add(top);
+
+        HBox topBox = new HBox(10);
+
+        TextField x = new TextField();
+        x.setPrefSize(40,20);
+        TextField y = new TextField();
+        y.setPrefSize(40,20);
+
+        Label btn_expected = new Label("");
+        btn_expected.setPrefSize(100,20);
+        Label btn_got = new Label("");
+        btn_got.setMinSize(40,20);
+        topBox.getChildren().addAll(x,y,btn_expected,btn_got);
+
+
+        HBox operators = new HBox(5);
+        Button btnPlus = new Button("+");
+        btnPlus.setPrefSize(40,40);
+        btnPlus.setOnAction(e -> {
+            try {
+                btn_got.setText(Double.toString(Miniraknare.add(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+            }
+            catch (NumberFormatException nfe) {
+                btn_got.setText(nfe.toString());
+            }
+            });
+
+        Button btnSub = new Button("-");
+        btnSub.setPrefSize(40,40);
+        Button btnMult = new Button("*");
+        btnMult.setPrefSize(40,40);
+        Button btnDiv = new Button("/");
+        btnDiv.setPrefSize(40,40);
 
 
 
-        VBox vb1 = new VBox();
-        Label label = new Label("LOL");
-        vb1.getChildren().add(label);
-        VBox vb2= new VBox();
-        VBox vb3= new VBox();
-        VBox vb4 = new VBox();
-
-        stuff.getChildren().addAll(vb1,vb2,vb3,vb4);
-        //stuff
+        operators.getChildren().addAll(btnPlus,btnSub,btnDiv,btnMult);
 
 
+
+        verticalStack.getChildren().add(topBox);
+        verticalStack.getChildren().add(operators);
+
+
+
+
+        Button quit = new Button("Quit");
+        quit.setOnAction(e -> System.exit(0));
+
+        verticalStack.getChildren().add(quit);
+
+
+        stuff.getChildren().addAll(verticalStack);
         mainstage.setScene(scene);
         mainstage.show();
 
     }
+
 
 
 }
