@@ -131,8 +131,10 @@ public class GUI extends Application {
         Button btnPi = new Button("PI");
         btnPi.setPrefSize(40,40);
         btnPi.setOnAction(e -> {
-            btn_got.setText(Double.toString(Math.PI));
+            y.setText(Double.toString(Math.PI));
         });
+
+
         operators.getChildren().addAll(btnPlus,btnSub,btnDiv,btnMult,btnSqrt,btnPi);
         verticalStack.getChildren().add(operators);
 

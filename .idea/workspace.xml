@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7494725-d162-41c2-b297-10b3ba4574ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/GUI.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/GUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/miniraknare.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/miniraknare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/miniraknareTest.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/miniraknareTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miniraknare.java" afterPath="$PROJECT_DIR$/src/miniraknare.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miniraknareTest.groovy" afterPath="$PROJECT_DIR$/src/miniraknareTest.groovy" />
     </list>
     <ignored path="miniräknartest.iws" />
@@ -44,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniraknareTest.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="miniraknareTest.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="90">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -56,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
+            <state relative-caret-position="302">
+              <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/miniraknareTestJUnit.groovy" />
         <option value="$PROJECT_DIR$/src/miniraknare.java" />
-        <option value="$PROJECT_DIR$/src/miniraknareTest.groovy" />
         <option value="$PROJECT_DIR$/src/GUI.java" />
+        <option value="$PROJECT_DIR$/src/miniraknareTest.groovy" />
       </list>
     </option>
   </component>
@@ -718,7 +713,7 @@
       <workItem from="1459761203804" duration="1977000" />
       <workItem from="1459763484516" duration="4333000" />
       <workItem from="1459770862845" duration="8641000" />
-      <workItem from="1459843403845" duration="9882000" />
+      <workItem from="1459843403845" duration="10667000" />
     </task>
     <servers />
   </component>
@@ -755,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24833000" />
+    <option name="totallyTimeSpent" value="25618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="50" width="1297" height="710" extended-state="0" />
@@ -897,6 +892,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -910,20 +915,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

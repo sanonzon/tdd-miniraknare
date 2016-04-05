@@ -6,7 +6,7 @@ import miniraknare;
 class miniraknareTest extends GroovyTestCase{
     public void main(String[] args) {
         testAdd();
-testDivide();
+        testDivide();
         testMult();
         testSqrt();
         testSub();
