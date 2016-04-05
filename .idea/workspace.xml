@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7494725-d162-41c2-b297-10b3ba4574ab" name="Default" comment="" />
+    <list default="true" id="d7494725-d162-41c2-b297-10b3ba4574ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/GUI.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/GUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/miniraknare.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/miniraknare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniräknartest/miniraknareTest.class" afterPath="$PROJECT_DIR$/out/production/miniräknartest/miniraknareTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miniraknare.java" afterPath="$PROJECT_DIR$/src/miniraknare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miniraknareTest.groovy" afterPath="$PROJECT_DIR$/src/miniraknareTest.groovy" />
+    </list>
     <ignored path="miniräknartest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,14 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="miniraknare.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="miniraknare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="203">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +47,8 @@
       <file leaf-file-name="miniraknareTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="486">
+              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/miniraknare.java" />
         <option value="$PROJECT_DIR$/src/miniraknareTestJUnit.groovy" />
-        <option value="$PROJECT_DIR$/src/GUI.java" />
+        <option value="$PROJECT_DIR$/src/miniraknare.java" />
         <option value="$PROJECT_DIR$/src/miniraknareTest.groovy" />
+        <option value="$PROJECT_DIR$/src/GUI.java" />
       </list>
     </option>
   </component>
@@ -688,8 +696,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.GUI" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.miniraknareTest.testSub" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.miniraknareTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.miniraknareTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.miniraknareTest.testSub" />
         <item index="3" class="java.lang.String" itemvalue="Application.miniraknare" />
       </list>
     </recent_temporary>
@@ -710,35 +718,44 @@
       <workItem from="1459761203804" duration="1977000" />
       <workItem from="1459763484516" duration="4333000" />
       <workItem from="1459770862845" duration="8641000" />
-      <workItem from="1459843403845" duration="6848000" />
+      <workItem from="1459843403845" duration="9882000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="miniraknareTest - 2016.04.05 at 10h 18m 29s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 13h 17m 30s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest - 2016.04.05 at 10h 41m 01s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 13h 57m 35s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest - 2016.04.05 at 11h 08m 49s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 05m 56s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest - 2016.04.05 at 11h 15m 38s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 06m 51s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest - 2016.04.05 at 11h 17m 02s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 08m 18s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest - 2016.04.05 at 12h 55m 28s.xml">
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 11m 29s.xml">
       <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="miniraknareTest_testSub - 2016.04.05 at 12h 56m 21s.xml">
-      <configuration name="miniraknareTest.testSub" configurationId="JUnit" />
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 11m 47s.xml">
+      <configuration name="miniraknareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 12m 25s.xml">
+      <configuration name="miniraknareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 15m 31s.xml">
+      <configuration name="miniraknareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="miniraknareTest - 2016.04.05 at 14h 16m 42s.xml">
+      <configuration name="miniraknareTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21799000" />
+    <option name="totallyTimeSpent" value="24833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="50" width="1297" height="710" extended-state="0" />
@@ -752,7 +769,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45483872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26451612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -796,8 +813,8 @@
         <state relative-caret-position="180">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,8 +844,8 @@
         <state relative-caret-position="126">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,8 +875,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,33 +897,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="486">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="284">
+          <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -51,14 +51,15 @@ public class GUI extends Application {
         topBox.getChildren().addAll(x,y);
         verticalStack.getChildren().add(topBox);
 
-        HBox expectedBox = new HBox(5);
+   /*     HBox expectedBox = new HBox(5);
         Label expected = new Label("Expected");
         expected.setPrefSize(70,20);
+
         Label btn_expected = new Label("");
         //btn_expected.setPrefSize(100,20);
         expectedBox.getChildren().addAll(expected,btn_expected);
         verticalStack.getChildren().add(expectedBox);
-
+*/
         HBox gotBox = new HBox(5);
         Label result = new Label("Got");
         result.setPrefSize(70,20);
@@ -75,21 +76,64 @@ public class GUI extends Application {
         btnPlus.setOnAction(e -> {
             try {
 
-                btn_got.setText(Double.toString(miniraknare.add(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+                btn_got.setText(Double.toString(miniraknare.addera(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
             }
             catch (NumberFormatException nfe) {
-                btn_got.setText(nfe.toString());
+                btn_got.setText("Använd bara siffror noob");
             }
             });
 
         Button btnSub = new Button("-");
         btnSub.setPrefSize(40,40);
+        btnSub.setOnAction(e -> {
+            try {
+
+                btn_got.setText(Double.toString(miniraknare.subera(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+            }
+            catch (NumberFormatException nfe) {
+                btn_got.setText("Använd bara siffror noob");
+            }
+        });
         Button btnMult = new Button("*");
         btnMult.setPrefSize(40,40);
+        btnMult.setOnAction(e -> {
+            try {
+
+                btn_got.setText(Double.toString(miniraknare.mult(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+            }
+            catch (NumberFormatException nfe) {
+                btn_got.setText("Använd bara siffror noob");
+            }
+        });
         Button btnDiv = new Button("/");
         btnDiv.setPrefSize(40,40);
+        btnDiv.setOnAction(e -> {
+            try {
 
-        operators.getChildren().addAll(btnPlus,btnSub,btnDiv,btnMult);
+                btn_got.setText(Double.toString(miniraknare.divide(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+            }
+            catch (NumberFormatException nfe) {
+                btn_got.setText("Använd bara siffror noob");
+            }
+        });
+        Button btnSqrt = new Button("^0,5");
+        btnSqrt.setPrefSize(50,40);
+        btnSqrt.setOnAction(e-> {
+            try {
+
+                btn_got.setText(Double.toString(miniraknare.sqrt(Double.parseDouble(x.getText()))));
+            }
+            catch (NumberFormatException nfe) {
+                btn_got.setText("Använd bara siffror noob");
+            }
+        });
+
+        Button btnPi = new Button("PI");
+        btnPi.setPrefSize(40,40);
+        btnPi.setOnAction(e -> {
+            btn_got.setText(Double.toString(Math.PI));
+        });
+        operators.getChildren().addAll(btnPlus,btnSub,btnDiv,btnMult,btnSqrt,btnPi);
         verticalStack.getChildren().add(operators);
 
 
@@ -105,7 +149,7 @@ public class GUI extends Application {
         reset.setOnAction(e -> {
             x.setText("");
             y.setText("");
-            btn_expected.setText("");
+            //btn_expected.setText("");
             btn_got.setText("");
         });
         botButtons.getChildren().addAll(quit,reset);

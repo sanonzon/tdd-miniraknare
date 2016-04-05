@@ -8,10 +8,10 @@ import javafx.stage.Stage;
 public class miniraknare {
 
 
-    public static double add(double x, double y) {
+    public static double addera(double x, double y) {
         return x+y;
     }
-    public static double sub(double x, double y) {
+    public static double subera(double x, double y) {
         return x-y;
     }
     public static double mult(double x, double y) {
