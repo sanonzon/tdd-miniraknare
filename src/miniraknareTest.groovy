@@ -2,7 +2,9 @@
  * Created by suddan on 2016-04-04.
  */
 class miniraknareTest extends GroovyTestCase {
-
+    public void main(String[] args) {
+        testAdd();
+    }
 
     void testAdd() {
         double x = 4;
@@ -29,11 +31,5 @@ class miniraknareTest extends GroovyTestCase {
 
     }
 
-    void testPi() {
 
-    }
-
-    void testReset() {
-
-    }
 }
