@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7494725-d162-41c2-b297-10b3ba4574ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miniraknareTest.groovy" afterPath="$PROJECT_DIR$/src/miniraknareTest.groovy" />
-    </list>
+    <list default="true" id="d7494725-d162-41c2-b297-10b3ba4574ab" name="Default" comment="" />
     <ignored path="miniräknartest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="miniraknare.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="miniraknare.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -39,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniraknareTest.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="miniraknareTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -97,7 +94,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
+    <option name="x" value="1415" />
     <option name="y" value="50" />
     <option name="width" value="1297" />
     <option name="height" value="710" />
@@ -199,7 +196,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.miniraknareTest.testSub">
+  <component name="RunManager" selected="Application.GUI">
     <configuration default="false" name="miniraknare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="miniraknare" />
@@ -690,9 +687,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.miniraknareTest.testSub" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.miniraknareTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GUI" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GUI" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.miniraknareTest.testSub" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.miniraknareTest" />
         <item index="3" class="java.lang.String" itemvalue="Application.miniraknare" />
       </list>
     </recent_temporary>
@@ -713,7 +710,7 @@
       <workItem from="1459761203804" duration="1977000" />
       <workItem from="1459763484516" duration="4333000" />
       <workItem from="1459770862845" duration="8641000" />
-      <workItem from="1459843403845" duration="6242000" />
+      <workItem from="1459843403845" duration="6848000" />
     </task>
     <servers />
   </component>
@@ -741,10 +738,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21193000" />
+    <option name="totallyTimeSpent" value="21799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="50" width="1297" height="710" extended-state="0" />
+    <frame x="1415" y="50" width="1297" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,7 +752,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45483872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45483872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,6 +890,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/miniraknare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -900,16 +907,6 @@
           <folding>
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniraknareTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
