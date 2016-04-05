@@ -12,11 +12,14 @@ class miniraknareTest extends GroovyTestCase {
         double result = miniraknare.add(x, y);
         double expected = 6;
         assertEquals(expected, result);
-
     }
 
     void testSub() {
-
+        long x = 9;
+        long y = 8;
+        long result = miniraknare.sub(x,y);
+        long expected = Math.subtractExact(x,y);
+        assertEquals(expected,result);
     }
 
     void testMult() {
