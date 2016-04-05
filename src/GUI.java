@@ -22,7 +22,7 @@ public class GUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        miniraknare Miniraknare = new miniraknare();
+        //miniraknare Miniraknare = new miniraknare();
 
         Stage mainstage = new Stage();
         Group root = new Group();
@@ -73,7 +73,7 @@ public class GUI extends Application {
         btnPlus.setPrefSize(40,40);
         btnPlus.setOnAction(e -> {
             try {
-                btn_got.setText(Double.toString(Miniraknare.add(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
+                btn_got.setText(Double.toString(miniraknare.add(Double.parseDouble(x.getText()), Double.parseDouble(y.getText()))));
             }
             catch (NumberFormatException nfe) {
                 btn_got.setText("Inte bara siffror");

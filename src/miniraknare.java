@@ -8,29 +8,25 @@ import javafx.stage.Stage;
 public class miniraknare {
 
 
-    public double add(double x, double y) {
+    public static double add(double x, double y) {
         return x+y;
     }
-    public double sub(double x, double y) {
+    public static double sub(double x, double y) {
         return x-y;
     }
-    public double mult(double x, double y) {
+    public static double mult(double x, double y) {
         return x*y;
     }
-    public double divide(double x, double y) {
+    public static double divide(double x, double y) {
         return x/y;
     }
     
-    public double sqrt(double x) {
+    public static double sqrt(double x) {
         return Math.sqrt(x);
     }
     
-    public double pi(double x, double y) {
-        return Math.PI;
-    }
-    public double reset() {
-        return 0;
-    }
+
+
 
 
 
