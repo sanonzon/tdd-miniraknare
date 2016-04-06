@@ -4,28 +4,31 @@
 import miniraknare;
 
 class miniraknareTest extends GroovyTestCase{
-    public void main(String[] args) {
-        testAdd();
-        testDivide();
-        testMult();
-        testSqrt();
-        testSub();
-    }
-
     void testAdd() {
-        double x = 4;
-        double y = 2;
+        double x = 4.25;
+        double y = 2.24;
 
+        double result = miniraknare.addera(x, y)
+        double expected = 6.49;
+        assertEquals(expected, result);
+    }
+    /*
+    void testAdd2() {
+        println("This should fail!")
+        double x = 8;
+        double y = 9;
+
+        BigDecimal
         double result = miniraknare.addera(x, y)
         double expected = 6;
         assertEquals(expected, result);
-    }
+    }*/
 
     void testSub() {
-        long x = 9;
-        long y = 8;
+        long x = 9.25;
+        long y = 8.24;
         long result = miniraknare.subera(x,y);
-        long expected = Math.subtractExact(x,y);
+        long expected = 1.01
         assertEquals(expected,result);
     }
 

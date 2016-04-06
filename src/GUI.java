@@ -25,30 +25,33 @@ public class GUI extends Application {
         //miniraknare Miniraknare = new miniraknare();
 
         Stage mainstage = new Stage();
-        Group root = new Group();
+
         mainstage.setTitle("Mazin java tjosan");
         HBox stuff = new HBox();
         Scene scene = new Scene(stuff, 400, 500);
 
         VBox verticalStack = new VBox(10);
 
-        HBox top = new HBox(20);
+        HBox top = new HBox(10);
         Label tal1 = new Label("Tal 1");
         tal1.setMinSize(40,20);
-        Label tal2 = new Label("Tal 2");
-        tal2.setMinSize(40,20);
+        TextField x = new TextField();
+       // x.setPrefSize(40,20);
+        x.setPrefWidth(350);
 
-        top.getChildren().addAll(tal1,tal2);
+        top.getChildren().addAll(tal1,x);
         verticalStack.getChildren().add(top);
 
         HBox topBox = new HBox(10);
 
-        TextField x = new TextField();
-        x.setPrefSize(40,20);
-        TextField y = new TextField();
-        y.setPrefSize(40,20);
 
-        topBox.getChildren().addAll(x,y);
+        Label tal2 = new Label("Tal 2");
+        tal2.setMinSize(40,20);
+        TextField y = new TextField();
+        //y.setPrefSize(40,20);
+        y.setPrefWidth(350);
+
+        topBox.getChildren().addAll(tal2,y);
         verticalStack.getChildren().add(topBox);
 
    /*     HBox expectedBox = new HBox(5);
@@ -62,7 +65,7 @@ public class GUI extends Application {
 */
         HBox gotBox = new HBox(5);
         Label result = new Label("Got");
-        result.setPrefSize(70,20);
+        result.setPrefSize(55,20);
         Label btn_got = new Label("");
         //btn_got.setMinSize(40,20);
 
@@ -159,6 +162,7 @@ public class GUI extends Application {
 
 
         stuff.getChildren().addAll(verticalStack);
+        mainstage.setResizable(false);
         mainstage.setScene(scene);
         mainstage.show();
 
